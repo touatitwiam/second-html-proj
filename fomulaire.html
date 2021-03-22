@@ -1,0 +1,95 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mon Premier Page</title>
+  </head>
+<style type="text/css">
+h1{
+  margin-left: 5%;
+
+}
+form{
+  background-color:#F5F5DC;
+  padding:15px;
+  width: 270px;
+  display: inline-block;
+}
+slider {
+webkit appearance: none;
+width: 35%;
+height: 15px;
+border-radius: 5px;
+background: #F5F5DC;
+opacity: 0.7;
+}
+slider {
+webkit appearance: none;
+appearance: none;
+width: 25px;
+height: 25px;
+border-radius: 50%;
+background: #F5F5DC;
+cursor: pointer;
+}
+
+</style>
+  <body>
+<h1>Votre Avis Nous Interesse</h1>
+<table>
+  <tr>
+    <td>
+<form>
+  <fieldset>
+    <legend>Information Personneles</legend>
+    <ol>
+      <li>Nom<input type="text" name="" value="" required></li>
+      <li>Date de naissance <input type="date" name="" value="" required></li>
+      <li>   <label for="site"> Site  :</label>
+<select id ="site">
+  <option >http://monsite.com</option>
+  <option> https://monsite.com</option>
+       required> </select> </li>
+      <li> <label for="Emploi"> Emploi</label>
+      <select id="Emploi" >
+        <option></option>
+        <option> Etudiant</option>
+        <option>Administrateur </option>
+        <option>Réseau</option>
+        <option>Déveleppeur web</option>
+        <option> Web designer</option>
+        <option>DevOps</option>
+      </select> </li>
+      <li>  <label for="Approx Salaire annuel"> Approx Salaire annuel </label>   <br>
+        <input   step="1000" placeholder="$" required type="number" name ="number"></li>
+    </ol>
+  </fieldset>
+</td>
+<td>
+  <fieldset>
+    <legend>Information de contact </legend>
+    <ol>
+      <li>Address ligne 1<br> <input type="address" name="" value="" required></li>
+      <li>Address ligne 2 <br><input type="addres" name="" value="" required></li>
+      <li> <label for ="payer"> payer</label>
+      <select id="payer">
+<option></option>
+<option> Algérie </option>
+<option> Tunisie </option>
+<option> Maroc </option>
+</select>  </li>
+      <li>Tél  <input type="tel" name="" value="" placeholder="eg + 21367" equired></li>
+      <li> courriel <input type="email" name="" value="" ></li>
+    </ol>
+  </fieldset>
+</form>
+</td>
+</tr>
+</table>
+<h1>Préférences</h1>
+<div> choisir une couleur <input type="color" name="" value="#E1CE9A" required><br><div/>
+<div>sur une échelle de 1 à 10 , quel est votre degré d'enthousiasme pour HTML5 ?
+   <input  type="range" id="range" name="range" value="" required><br><div/>
+<div> <input type="submit" name="" value="Envoyer"><div/>
+  </body>
+</html>
